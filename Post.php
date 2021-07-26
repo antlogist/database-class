@@ -1,0 +1,12 @@
+<?php
+
+require_once("Database.php");
+
+class Post {
+  private $db;
+  
+  function __construct() {
+    $this->db = new Database();
+  }
+
+}
