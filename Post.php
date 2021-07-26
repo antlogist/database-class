@@ -8,5 +8,11 @@ class Post {
   function __construct() {
     $this->db = new Database();
   }
+  
+  //Get all posts
+  function getPosts() {
+    $this->db->query("SELECT * FROM oop_posts");
+    return $this->db->resultset();
+  }
 
 }
