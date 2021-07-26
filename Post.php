@@ -18,7 +18,7 @@ class Post {
   //Get one post
   function getPostById($id) {
     $this->db->query("SELECT * FROM oop_posts WHERE id=:id");
-    $this->db->bind("id", 2);
+    $this->db->bind("id", $id);
     return $this->db->single();
   }
 
