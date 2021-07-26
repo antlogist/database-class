@@ -20,4 +20,4 @@ $data = [
   "id" => 3,
   "title" => "Post three", 
   "content" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa magni reiciendis sit sapiente quam tempore quasi neque, ipsam iste similique sunt deleniti repellat autem voluptatum quia delectus ullam consequatur minima!"];
-$p->addPost($data);
+$p->updatePost($data);
